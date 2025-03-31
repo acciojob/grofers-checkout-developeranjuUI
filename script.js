@@ -23,6 +23,7 @@ const getSum = () => {
 
 	let newPriceCell = document.createElement('td');
 	newPriceCell.style.fontWeight = "bold";
+	newPriceCell.id = 'ans';
 	newPriceCell.textContent = ` Rs. ${total}`;
 	newRow.appendChild(newCell);
 	newRow.appendChild(newPriceCell);
